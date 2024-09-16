@@ -15,7 +15,7 @@ const f=(a)=>{
     const arr2=arr1[1].split('.')
  
     
-    if(arr2.length<2 || arr2[0]==='' ||arr2[-1]!=='com'  ){
+    if(arr2.length<2 || arr2[0]==='' ||arr2[arr2.length-1]!=='com'  ){
         console.log("Not Valid");   
         return false
     }
